@@ -42,6 +42,12 @@ more advanced stuff
     head <filename> prints first few lines of a file
         -n <number> option specifies how many lines to prints
     echo <string> prints a string
+    cut <separation option> <delimiter?> <field option> <field number> <filename>
+        -d separation option indicates the use of a delimiter
+        -f field option with 2 field number extracts the second field or column
+        example: $ cut -d , -f 2 animals.csv
+    uniq <filename> filters out adjacent matching lines
+        -c option gives a count of the number of times a line occurs in its input
 
 
 useful notes
@@ -51,3 +57,4 @@ useful notes
     > <filename> prints the results of a command to a file
         overwrites existing file if there is one
     >> <filename> adds onto an existing file if it exists
+    | (<command> | <command> ...) pipes a command's result into another command
