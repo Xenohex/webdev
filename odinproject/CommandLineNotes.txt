@@ -17,11 +17,11 @@ Useful commands
     man <command> - displays command's manual (press Q to exit)
     mkdir <dirname> - makes a new directory
         -p allows you to make subdirectories and their parent directories at the same time
-    nano <name> - 
+    nano <name> - basically makes a new text file and allows you to edit it in the terminal
     mv <filename> <directory/(newfilename)> - moves file to target directory with specified (new) name
         can be used to rename files, but be careful of overwriting old ones of the same name.
         works on directories. the directory in the command can be omitted to move file to same directory (renaming it)
-    cp <filename> <directory/(newfilename)> - copies file to target directry with specified (new) name
+    cp <filename> <directory/(newfilename)> - copies file to target directory with specified (new) name
         adding -r and entering a directory instead of a file copies the directory and everything in it (r = recursive)
         you can copy multiple files as long as the last entry is a directory
     rm <file/directory> - remove file/directory 

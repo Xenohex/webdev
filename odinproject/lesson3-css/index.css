@@ -11,7 +11,32 @@ div.bolt-text {
     color: red;
     height: 200px;
 }
+
+type selector
+div {}
+
+class selector
+.alert-text {}
+
+ID selector
+#title {}
+
+grouping selector (comma separated)
+.read,
+.unread {}
+
+select elements that have both the "subsection" and "header" classes
+.subsection.header {}
+
+select elements that have both the "subsection" class and "preview" ID
+.subsection#preview {}
+
+select elements that are children of the "ancestor" class but also have the "contents" class
+.ancestor .contents {} (there is no limit to how many combinators you can add to a rule)
+
+
 */
+
 
 /* universal selector */
 * {
@@ -112,4 +137,8 @@ ul li h2 {
     background-color: #fc9400;
     color: white;
     text-decoration: none;
+}
+
+.container {
+    box-sizing: border-box;
 }
